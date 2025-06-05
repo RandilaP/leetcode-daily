@@ -17,7 +17,7 @@ Input: prices = [10,8,7,5,2]
 
 Output: 0
 Explanation: No profitable transactions can be made, thus the max profit is 0."""
-def maxProfit(self, prices: List[int]) -> int:
+def maxProfit(self, prices) -> int:
         l,r = 0, 1
         maxP = 0
 
